@@ -236,6 +236,17 @@ margin-right:3px;
         width: 98%;
     }
 
+#texts {
+    color:green;
+    background-color: white;
+    margin-top:-10px;
+    display:none;
+    position:absolute;
+    transform: translate(0px, -240px);
+    cursor: pointer;
+  
+}
+
 }
 
    
