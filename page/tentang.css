@@ -140,7 +140,7 @@ img {
 }
 .container {
     flex-direction: column;
-    height: 700px;
+    height: 750px;
     justify-content: space-evenly;
 
    }
@@ -157,7 +157,7 @@ img {
    }
 
    .content1 {
-     margin-top: -280px;
+     margin-top: -330px;
    }
 
    .content2 {
