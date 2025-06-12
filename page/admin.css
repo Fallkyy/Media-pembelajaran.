@@ -221,6 +221,10 @@ textarea {
        
     }
 
+    button {
+        width:350px;
+    }
+
 
    .header2 h2, .header2 h3 {
 font-size: 15px;
