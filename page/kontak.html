@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css "></link>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body onscroll="">
+    <div class="header" id='header'>
+        <div class="header1">
+            <i class="fas fa-user" id="profile"><div class="logout"> <a href="/Login.html
+                ">Edit??</a>
+                </div></i>
+                <p id="demo"></p>
+           </div>
+        <div class="header2">
+           <h2>Media Pembelajaran IPAS: Konektivitas Antarruang Dan Waktu <strong>(Kontak)</strong></h2>
+          </div>
+    </div>
+    <div class="container reveal" id="contains">
+      
+
+        
+        
+        <h2>Silahkan tulis pesan untuk pihak sekolah di form berikut. Kami akan meneruskannya secepatnya.</h2>
+        <form onsubmit="send()" action="#">
+<div class="labels">
+    <label for="users">Username : </label>
+</div>
+        <div class="input"  id="users" readonly> </div>
+        <div class="labels">
+    <label for="users">Email : </label>
+</div>
+<input type="email" id="emails"  maxlength="35" placeholder="contoh@123..." required> 
+<div class="labels">
+    <label for="users">Pesan : </label>
+</div>
+
+<textarea id="area"  maxlength="500" placeholder="sampaikan pesan..." required></textarea><br/>
+<button type="submit">Kirim Pesan!</button>
+<p>Note: Pesan anda dikirim secara privat kepada pihak sekolah </p> 
+ <p id="texts">Pesan anda telah terkirim>>> <a style='color:red;' onclick='deletes()'>X</a> </p>
+</form>
+    <a href="/"><i class="fas fa-home"></i></a>
+  
+    </div>
+
+</body>
+<script src="script/kontak.js"></script>
+</html>
